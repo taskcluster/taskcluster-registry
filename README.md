@@ -18,3 +18,16 @@ This registry does associate clientIds with users... and actually `<user>` in
 the sense above is more of a string that identifies a section of repositories.
 
 For credentials to run dev setups ask jonsafj.
+
+
+Reference Code and Documentation For docker:
+------
+ * https://github.com/dotcloud/docker
+   * https://github.com/dotcloud/docker/blob/master/registry/registry.go
+   * https://github.com/dotcloud/docker/blob/master/registry/auth.go
+ * https://github.com/dotcloud/docker-registry
+   * https://github.com/dotcloud/docker-registry/blob/master/docker_registry/index.py
+   * https://github.com/dotcloud/docker-registry/blob/master/docker_registry/images.py
+ * Poor/incomplete docs:
+   * https://docs.docker.com/reference/api/registry_api/
+   * http://docs.docker.com/reference/api/hub_registry_spec/
